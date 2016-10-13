@@ -15,6 +15,8 @@
 		B44DB6431DABA577001894CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44DB6411DABA577001894CD /* LaunchScreen.storyboard */; };
 		B44DB64E1DABA577001894CD /* WKWebViewMessageHandlerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DB64D1DABA577001894CD /* WKWebViewMessageHandlerDemoTests.m */; };
 		B44DB6591DABA577001894CD /* WKWebViewMessageHandlerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DB6581DABA577001894CD /* WKWebViewMessageHandlerDemoUITests.m */; };
+		B44DB6671DABA77A001894CD /* WKWebViewMessageHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = B44DB6661DABA77A001894CD /* WKWebViewMessageHandler.html */; };
+		B44DB6701DACCB85001894CD /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DB66F1DACCB85001894CD /* WKWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		B44DB6541DABA577001894CD /* WKWebViewMessageHandlerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewMessageHandlerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44DB6581DABA577001894CD /* WKWebViewMessageHandlerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewMessageHandlerDemoUITests.m; sourceTree = "<group>"; };
 		B44DB65A1DABA577001894CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44DB6661DABA77A001894CD /* WKWebViewMessageHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKWebViewMessageHandler.html; sourceTree = "<group>"; };
+		B44DB66E1DACCB85001894CD /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		B44DB66F1DACCB85001894CD /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		B44DB6321DABA577001894CD /* WKWebViewMessageHandlerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B44DB6661DABA77A001894CD /* WKWebViewMessageHandler.html */,
 				B44DB6361DABA577001894CD /* AppDelegate.h */,
 				B44DB6371DABA577001894CD /* AppDelegate.m */,
 				B44DB6391DABA577001894CD /* ViewController.h */,
 				B44DB63A1DABA577001894CD /* ViewController.m */,
+				B44DB66E1DACCB85001894CD /* WKWebViewController.h */,
+				B44DB66F1DACCB85001894CD /* WKWebViewController.m */,
 				B44DB63C1DABA577001894CD /* Main.storyboard */,
 				B44DB63F1DABA577001894CD /* Assets.xcassets */,
 				B44DB6411DABA577001894CD /* LaunchScreen.storyboard */,
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44DB6431DABA577001894CD /* LaunchScreen.storyboard in Resources */,
+				B44DB6671DABA77A001894CD /* WKWebViewMessageHandler.html in Resources */,
 				B44DB6401DABA577001894CD /* Assets.xcassets in Resources */,
 				B44DB63E1DABA577001894CD /* Main.storyboard in Resources */,
 			);
@@ -276,6 +285,7 @@
 				B44DB63B1DABA577001894CD /* ViewController.m in Sources */,
 				B44DB6381DABA577001894CD /* AppDelegate.m in Sources */,
 				B44DB6351DABA577001894CD /* main.m in Sources */,
+				B44DB6701DACCB85001894CD /* WKWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +434,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WKWebViewMessageHandlerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = reborn.WKWebViewMessageHandlerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +447,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WKWebViewMessageHandlerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = reborn.WKWebViewMessageHandlerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

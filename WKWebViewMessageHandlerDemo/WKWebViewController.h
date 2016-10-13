@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  WKWebViewController.h
 //  WKWebViewMessageHandlerDemo
 //
 //  Created by reborn on 16/9/12.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface WKWebViewController : UIViewController
 
 @end
-
